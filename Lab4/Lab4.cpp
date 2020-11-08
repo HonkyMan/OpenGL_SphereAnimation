@@ -14,7 +14,7 @@ void redisplayFunc(void)
     // Note this when you decrease z like -8.0 the drawing will looks far , or smaller.
     glTranslatef(0.0, 0.0, -5.0);
     // Red color used to draw.
-    glColor3f(0.9, 0.0, 0.0);
+    glColor3f(0.9, 0.8, 0.3);
     // changing in transformation matrix.
     // rotation about X axis
     glRotatef(xRotated, 1.0, 0.0, 0.0);
